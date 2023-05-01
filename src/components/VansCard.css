@@ -1,0 +1,87 @@
+.vanCard {
+  /* margin-left: 26.91px; */
+  /* margin-right: 33px; */
+}
+
+.vanCardImg {
+  width: 229.23px;
+  height: 229.23px;
+  border-radius: 5px;
+  padding-bottom: 9.97px;
+}
+
+.vanCardInfo {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.vanPrice {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  /* align-items; */
+  /* justify-content: flex-start; */
+}
+
+.vanName {
+  width: 159px;
+  height: 32px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #161616;
+}
+
+.price {
+  width: 40px;
+  height: 32px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 158% */
+
+  text-align: right;
+
+  color: #161616;
+}
+
+.day {
+  width: 58.8px;
+  height: 13.95px;
+  justify-content: center;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: right;
+  /* or 226% */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #161616;
+}
+
+.vanCardBtn {
+  width: 85.71px;
+  height: 33.89px;
+  border: none;
+  outline: none;
+  background: #e17654;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffead0;
+  cursor: pointer;
+}

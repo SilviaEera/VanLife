@@ -1,0 +1,119 @@
+.aboutHero {
+  width: 548.15px;
+  height: 233.21px;
+  padding-bottom: 48.84px;
+}
+
+.aboutTextSection > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* or 119% */
+  padding-left: 26.91px;
+  padding-right: 26.91px;
+  width: 494.33px;
+  height: 76px;
+  color: #161616;
+}
+
+.aboutTextSection > div {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+  padding-left: 27.02px;
+  padding-top: 31.33px;
+  padding-right: 27.13px;
+  padding-bottom: 55px;
+  color: #161616;
+  width: 494px;
+  height: 154px;
+}
+
+.aboutTextSection > div > p:first-child {
+  margin-bottom: 26px;
+}
+
+.aboutCard {
+  width: 494px;
+  height: 198px;
+  margin: auto;
+  margin-bottom: 53px;
+  background: #ffcc8d;
+  border-radius: 5px;
+}
+
+.aboutCard > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #161616;
+  width: 420px;
+  height: 60px;
+  padding-left: 37px;
+  padding-top: 32px;
+  padding-right: 37px;
+  padding-bottom: 25px;
+}
+
+.aboutCardBtn {
+  width: 174px;
+  height: 49px;
+  border: none;
+  background: #161616;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.9462px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin-left: 38px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .aboutHero {
+    width: 100%;
+    height: 520.21px;
+  }
+
+  .aboutTextSection {
+    text-align: center;
+  }
+
+  .aboutTextSection > h2 {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .aboutTextSection > div {
+    width: 50%;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .aboutCard {
+    width: 700px;
+    text-align: center;
+  }
+
+  .aboutCard > h2 {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .aboutCardBtn {
+    margin: auto;
+  }
+}

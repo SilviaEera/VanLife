@@ -1,0 +1,29 @@
+footer {
+  width: 548.15px;
+  height: 74.75px;
+  background: #252525;
+  margin-top: -1px;
+  position: sticky;
+  position: -webkit-sticky;
+  left: 0;
+  bottom: 0;
+}
+
+.footerText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  /* or 164% */
+
+  text-align: center;
+  padding-top: 25.68px;
+  color: #aaaaaa;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  footer {
+    width: 100%;
+  }
+}

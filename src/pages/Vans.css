@@ -1,0 +1,81 @@
+.vansWrapper {
+  /* margin-left: 26.91px; */
+  /* margin-right: 28.89px; */
+}
+
+.vanContainer {
+  padding-inline: 23px;
+  padding-bottom: 155.47px;
+}
+
+.vans {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 34px;
+  margin-top: 57px;
+}
+
+.vansWrapper > h1 {
+  margin-left: 26.91px;
+  margin-bottom: 28.49px;
+  width: 494.33px;
+  height: 34px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+  /* identical to box height, or 105% */
+
+  color: #161616;
+}
+
+.filterBtns {
+  margin-left: 26.91px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.filterBtns > button {
+  cursor: pointer;
+  width: 104px;
+  height: 37px;
+  border: none;
+  outline: none;
+  background: #ffead0;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 149% */
+
+  text-align: center;
+
+  color: #4d4d4d;
+}
+
+.filterBtns > button.rugged {
+  margin-right: 40px;
+}
+
+.filterClear {
+  width: 89px;
+  height: 24px;
+  cursor: pointer;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-decoration-line: underline;
+
+  color: #4d4d4d;
+}
